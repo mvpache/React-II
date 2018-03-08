@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CommentSection from '../CommentSection/CommentSection';
 import './PostContainer.css';
 
 class PostContainer extends Component {
@@ -10,7 +11,10 @@ class PostContainer extends Component {
   }
 
   render() {
-    return <div>Post Container Here</div>
+    return <div className="PostContainer">
+    Post Container Here
+    <CommentSection />
+    </div>
   }
 }
 

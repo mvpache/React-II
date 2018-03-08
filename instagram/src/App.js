@@ -6,8 +6,10 @@ import PostContainer from './components/PostContainer/PostContainer';
 class App extends Component {
   render() {
     return (
-      <SearchBar />,
-      <PostContainer />
+      <div>
+        <SearchBar />
+        <PostContainer />
+      </div>
     );
   }
 }
